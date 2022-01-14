@@ -47,23 +47,22 @@ ul {
   list-style-type: none;
 }
 
-/* SOLUTION */
-
-.header {
+.header{
   display: flex;
   justify-content: space-between;
-  padding: 8px;
+  width: 100%;
 }
 
-ul {
+.left, 
+.right{
   display: flex;
-  margin: 0;
-  padding: 0;
-  gap: 16px;
-}
-
-.left, .right {
-  display: flex;
+  justify-content: center;
   align-items: center;
+}
+
+ul{
+  display: flex;
+  margin:0;
+  padding: 0;
   gap: 16px;
 }
