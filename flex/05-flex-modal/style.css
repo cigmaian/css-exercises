@@ -66,28 +66,25 @@ button.cancel {
 }
 
 .modal{
+  padding: 1rem;
   display: flex;
-  padding: .9rem;
 }
-
 .icon{
   flex-shrink: 0;
+}
+.container{
+  margin-left: 1rem;
 }
 
 .header{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-weight: 700;
   font-size: 1.4rem;
-  margin-bottom: 1rem;
+   margin-bottom: .8rem;
 }
-
-.container {
-  padding: 0.5rem;
-}
-
-
 
 .text{
-  margin-bottom: 1rem;
+  margin-bottom: 1.4rem;
 }
